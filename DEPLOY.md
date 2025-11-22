@@ -2,7 +2,13 @@
 
 ## Quick Deploy (No Installation Required)
 
-You can deploy directly using npx without installing Vercel CLI globally:
+**First, login to Vercel:**
+
+```bash
+npx vercel login
+```
+
+This will open your browser to authenticate. After logging in, you can deploy:
 
 ```bash
 npx vercel
