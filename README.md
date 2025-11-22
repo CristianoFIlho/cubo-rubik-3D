@@ -56,6 +56,33 @@ A fully interactive 3D Rubik's Cube built with [Three.js](https://threejs.org/) 
 - `src/Solver.ts`: Bridges the 3D cube state with the solving algorithm.
 - `src/constants.ts`: Configuration constants (Colors, Sizes).
 
+## Deployment to Vercel
+
+This project is configured for easy deployment to Vercel.
+
+### Quick Deploy
+
+Deploy without installing anything globally:
+
+```bash
+npx vercel
+```
+
+For production:
+```bash
+npx vercel --prod
+```
+
+### GitHub Integration (Recommended)
+
+1. Push your code to GitHub
+2. Go to [Vercel Dashboard](https://vercel.com/dashboard)
+3. Click "Add New Project" and import your repository
+4. Vercel will auto-detect settings from `vercel.json`
+5. Click "Deploy"
+
+See `DEPLOY.md` for detailed deployment instructions.
+
 ## License
 
 MIT

@@ -1,5 +1,3 @@
-import * as THREE from 'three';
-
 export const CUBE_SIZE = 1;
 export const SPACING = 0.05;
 export const TOTAL_SIZE = (CUBE_SIZE + SPACING) * 3;

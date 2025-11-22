@@ -46,7 +46,8 @@ const orbitControls = new OrbitControls(camera, renderer.domElement);
 orbitControls.enableDamping = true;
 orbitControls.dampingFactor = 0.05;
 
-const controls = new Controls(camera, scene, cube, orbitControls);
+// Controls instance sets up event listeners in constructor
+const _controls = new Controls(camera, scene, cube, orbitControls);
 const solver = new Solver(cube);
 
 // Link cube moves to solver state

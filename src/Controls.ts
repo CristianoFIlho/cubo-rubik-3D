@@ -81,12 +81,12 @@ export class Controls {
         }
     }
 
-    onMouseMove(event: MouseEvent) {
+    onMouseMove(_event: MouseEvent) {
         if (!this.isDragging) return;
         // Visualization of drag could go here
     }
 
-    onTouchMove(event: TouchEvent) {
+    onTouchMove(_event: TouchEvent) {
         if (!this.isDragging) return;
     }
 
@@ -94,7 +94,7 @@ export class Controls {
         this.handleDragEnd(event.clientX, event.clientY);
     }
 
-    onTouchEnd(event: TouchEvent) {
+    onTouchEnd(_event: TouchEvent) {
          if (!this.startPoint) return;
          // We can't get clientX from touchend usually, so we might need to track last move
          // simplified: just rely on the fact that if we lifted, we are done.
