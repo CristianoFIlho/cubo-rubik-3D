@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rubik's Cube 3D</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="ui-container">
+        <div id="controls">
+            <button id="btn-scramble">Scramble</button>
+            <button id="btn-solve">Solve</button>
+        </div>
+        <div id="manual-controls">
+            <!-- Buttons will be generated or hardcoded here -->
+            <div class="control-group">
+                <button data-move="U">U</button>
+                <button data-move="U'">U'</button>
+            </div>
+            <div class="control-group">
+                <button data-move="D">D</button>
+                <button data-move="D'">D'</button>
+            </div>
+            <div class="control-group">
+                <button data-move="L">L</button>
+                <button data-move="L'">L'</button>
+            </div>
+            <div class="control-group">
+                <button data-move="R">R</button>
+                <button data-move="R'">R'</button>
+            </div>
+            <div class="control-group">
+                <button data-move="F">F</button>
+                <button data-move="F'">F'</button>
+            </div>
+            <div class="control-group">
+                <button data-move="B">B</button>
+                <button data-move="B'">B'</button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
+
