@@ -2,6 +2,8 @@
 
 A fully interactive 3D Rubik's Cube built with [Three.js](https://threejs.org/) and [Vite](https://vitejs.dev/). This project features a realistic 3D cube, mouse controls, UI buttons for manual rotation, and an integrated auto-solver.
 
+https://github.com/user-attachments/assets/213b7961-b53e-4a94-b366-e4b5c30754a6
+
 ## Features
 
 - **Interactive 3D Cube**: Rotate the entire cube to view from any angle using OrbitControls.
